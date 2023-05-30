@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f4f4f4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(136, 136, 136);
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.parent,
+#datos {
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+#datos {
+    height: 50vh;
+    width: 30vw;
+    gap: 1rem;
+    border: solid 2px #bbb89d;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #ccc9ab;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+}
+
+.botones {
+    gap: 3rem;
+}
+
+.boton {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 100ms all;
+}
+
+.boton:hover {
+    filter: brightness(0.8);
+}
+
+#result,
+#percent,
+#message {
+    font-size: 2rem;
+}
+
+#result,
+#percent {
+    background-color: none;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.resultado #titulo {
+    font-weight: 700;
+}
